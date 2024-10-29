@@ -1,0 +1,783 @@
+p,
+h2,
+h3,
+h4 {
+  font-family: Montserrat;
+}
+
+p {
+  color: var(--dl-color-default-secondtextcolor);
+  font-size: 1rem;
+}
+
+header,
+section {
+  gap: 40px;
+  width: 100%;
+  height: 780px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.seccion-container {
+  top: 160px;
+  left: 390px;
+  right: 390px;
+  position: absolute;
+  gap: 80px;
+  color: var(--dl-color-default-textcolor);
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+}
+
+#inicio-seccion {
+  gap: 35px !important;
+}
+
+.seccion-title,
+.seccion-subtitle,
+.seccion-content {
+  height: auto;
+  text-align: left;
+}
+
+.seccion-title {
+  color: var(--dl-color-default-primarytextcolor);
+  line-height: 24px;
+  font-size: 1.1rem;
+  font-weight: 700px;
+}
+
+.seccion-subtitle {
+  color: var(--dl-color-default-textcolor);
+  line-height: 50px;
+  font-size: 2.4rem;
+  font-weight: 700px;
+}
+
+.seccion-content {
+  color: var(--dl-color-default-secondtextcolor);
+  line-height: 20px;
+  font-size: 1rem;
+}
+
+.seccion-text {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.apsion-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.apsion-apsion {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* Header */
+#apsion-filter {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 729px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  background-image: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* Inicio */
+#inicio {
+  padding: 120px 0;
+  align-items: flex-start;
+  background-image: url("../media/inicio.png");
+  background-size: cover;
+}
+
+#inicio-title {
+  margin-top: 112px;
+  width: 501px;
+  font-size: 58px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.texto-destacado {
+  color: var(--dl-color-default-primarycolor);
+}
+
+#inicio-subtitle {
+  font-size: 1.3rem !important;
+  text-align: left;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+/* Botón "Únete" */
+.elementoBoton {
+  display: flex !important;
+  width: fit-content;
+  font-weight: 500;
+  padding: 10px 25px !important;
+  overflow: hidden;
+  align-items: center;
+  height: fit-content;
+  border-radius: 30px;
+  color: var(--dl-color-default-lighttextcolor);
+  background-color: var(--dl-color-default-primarycolor);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/*.btnUnete a {
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+  color: var(--dl-color-default-lighttextcolor);
+}
+
+.btnUnete:hover,
+.btnUnete::selection {
+  background-color: var(--dl-color-default-textcolor);
+}
+
+.btnUnete-flecha {
+  width: 12px;
+  height: 10px;
+}*/
+
+.elementoBoton:hover,
+.elementoBoton::selection {
+  background-color: var(--dl-color-default-textcolor);
+}
+
+/* Servicios */
+#servicios-cajas {
+  /*gap: 30px;*/
+  gap: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container-boxes {
+  gap: 20px;
+  /*width: 330px;*/
+  height: 400px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.070);
+}
+
+.container-boxes:hover {
+  transform: scale(1.01,1.01);
+  box-shadow: 0px 13px 19px 0px var(--dl-color-default-primarycolorhover);
+}
+
+.box-title {
+  color: var(--dl-color-default-primarytextcolor);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.box-content {
+  color: var(--dl-color-default-secondtextcolor);
+  font-size: 1rem;
+  text-align: center;
+  line-height: 20pt;
+}
+
+.linea-fija {
+  width: 242px;
+  height: 2px;
+}
+
+.apsion-icnarrowrighticnxs {
+  width: 12px;
+  height: 10px;
+}
+
+.apsion-frame1 {
+  top: 0px;
+  left: 0px;
+  width: 28.508012771606445px;
+  height: 22.857765197753906px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.apsion-frame2 {
+  top: 0px;
+  left: 0px;
+  width: 62.65829086303711px;
+  height: 48px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.apsion-group11 {
+  top: 0px;
+  left: 0px;
+  width: 9.27218246459961px;
+  height: 19.592369079589844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.apsion-frame3 {
+  top: 0px;
+  left: 0px;
+  width: 9.27218246459961px;
+  height: 19.592369079589844px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.apsion-frame4 {
+  top: 0px;
+  left: 0px;
+  width: 28.508012771606445px;
+  height: 2.477847099304199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.apsion-vector10 {
+  top: 0.0000025908113912009867px;
+  left: 19.501367568969727px;
+  width: 3px;
+  height: 2px;
+  position: absolute;
+}
+
+.apsion-vector11 {
+  top: 0px;
+  left: 0px;
+  width: 3px;
+  height: 2px;
+  position: absolute;
+}
+
+.apsion-container02 {
+  gap: 80px;
+  top: 104px;
+  left: 160px;
+  width: 1050px;
+  display: flex;
+  padding: 112px 0;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.apsion-row01 {
+  gap: 30px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.apsion-colmd81 {
+  gap: 35px;
+  width: 599px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.apsion-text028 {
+  color: rgba(70, 84, 163, 1);
+  width: 551px;
+  height: auto;
+  font-size: 58px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 80px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.apsion-text029 {
+  color: var(--dl-color-default-primarycolor);
+}
+
+.apsion-text030 {
+  color: var(--dl-color-default-textcolor);
+}
+
+.apsion-text031 {
+  color: var(--dl-color-default-primarycolor);
+}
+
+.apsion-text032 {
+  color: var(--dl-color-default-textcolor);
+}
+
+.apsion-text033 {
+  color: var(--dl-color-default-primarycolor);
+}
+
+.apsion-text035 {
+  color: var(--dl-color-default-secondtextcolor);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.apsion-button1 {
+  gap: 10px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+.apsion-button-md1 {
+  gap: 10px;
+  display: flex;
+  padding: 8px 33px;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-primarycolor);
+}
+
+.apsion-text037 {
+  color: var(--dl-color-default-lighttextcolor);
+  height: auto;
+  text-align: center;
+  line-height: 22px;
+}
+
+.apsion-colmd41 {
+  width: 415px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.apsion-container03 {
+  gap: 80px;
+  top: 0px;
+  left: 194.5px;
+  width: 1051px;
+  display: flex;
+  padding: 160px 3px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.apsion-text041 {
+  color: var(--dl-color-default-textcolor);
+  height: auto;
+  text-align: left;
+  line-height: 50px;
+}
+
+.apsion-colmd43 {
+  width: 328px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.apsion-card1 {
+  gap: 20px;
+  height: 400px;
+  display: flex;
+  padding: 35px 40px;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07000000029802322);
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-default-lightbackgroundcolor);
+}
+
+.apsion-text049 {
+  color: var(--dl-color-default-primarytextcolor);
+  width: 245px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.apsion-fixedwidthfixedheight1 {
+  width: 242px;
+  height: 2px;
+}
+
+.apsion-text051 {
+  color: var(--dl-color-default-secondtextcolor);
+  width: 244px;
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.apsion-colmd44 {
+  width: 329px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.apsion-card2 {
+  gap: 20px;
+  height: 400px;
+  display: flex;
+  padding: 35px 40px;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07000000029802322);
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-default-lightbackgroundcolor);
+}
+
+.apsion-text056 {
+  color: var(--dl-color-default-primarytextcolor);
+  width: 235px;
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.apsion-fixedwidthfixedheight2 {
+  width: 242px;
+  height: 2px;
+}
+
+.apsion-text058 {
+  color: var(--dl-color-default-secondtextcolor);
+  width: 235px;
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+/*PSICÓLOGOS*/
+
+.apsion-frame1-layout3 {
+  width: 1440px;
+  height: 1445px;
+  display: flex;
+  padding: 0 195px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  background-color: var(--dl-color-default-lightbackgroundcolor);
+}
+.apsion-psychoscontainer {
+  gap: 80px;
+  top: 0px;
+  left: 197.5px;
+  width: 1045px;
+  display: flex;
+  padding: 160px 0;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.apsion-row04 {
+  gap: 5px;
+  width: 1044px;
+}
+.apsion-maincontent1 {
+  gap: 10px;
+  width: 691px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.apsion-text060 {
+  color: var(--dl-color-default-primarytextcolor);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.apsion-text062 {
+  color: var(--dl-color-default-textcolor);
+  height: auto;
+  text-align: left;
+  line-height: 50px;
+}
+.apsion-text064 {
+  color: var(--dl-color-default-secondtextcolor);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.apsion-psychosframe {
+  gap: 32px;
+  width: 1045px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.apsion-psychocard {
+  width: 1035px;
+  display: flex;
+  overflow: hidden;
+  box-sizing: content-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(70, 84, 163, 0.10000000149011612);
+  border-style: solid;
+  border-width: 7px;
+  background-color: var(--dl-color-default-lightbackgroundcolor);
+}
+.apsion-fixedheight {
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.apsion-psychoimage1 {
+  top: 0px;
+  left: 0px;
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("../media/776ce990-1fef-4646-b54d-1cf794d75418-cgox-400w.png");
+}
+.apsion-psychoframe {
+  gap: 21px;
+  width: 687px;
+  display: flex;
+  padding: 25px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.apsion-psychodata {
+  gap: 445px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.apsion-psychoname {
+  color: var(--dl-color-default-textcolor);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+  gap: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+.apsion-frame4sec {
+  gap: 5px;
+  display: flex;
+  padding: 5px 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 20px;
+  justify-content: flex-end;
+  background-color: var(--dl-color-default-darkbackgroundcolor);
+}
+.apsion-iconemojionestar {
+  width: 16px;
+  height: 16px;
+}
+.apsion-psychograde {
+  color: var(--dl-color-default-lighttextcolor);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.apsion-psychodescription {
+  color: var(--dl-color-default-secondtextcolor);
+  width: 570px;
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apsion-prices {
+  gap: 5px;
+  display: flex;
+  padding: 5px 3px;
+  align-items: flex-start;
+}
+.apsion-text072 {
+  color: var(--dl-color-default-mutedcolor);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apsion-text074 {
+  color: var(--dl-color-default-secondarycolor1);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apsion-button-contact {
+  gap: 10px;
+  display: flex;
+  padding: 10px 20px;
+  overflow: hidden;
+  align-items: center;
+  border-color: rgba(70, 84, 163, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 37px;
+}
+.apsion-button-contact:hover {
+  background-color: var(--dl-color-default-secondtextcolor);
+  border-color: white;
+  cursor: pointer;
+}
+.apsion-contact {
+  color: var(--dl-color-default-primarycolor);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.apsion-icnarrowrighticnxs1 {
+  width: 9px;
+  height: 16px;
+}
+.apsion-psychoimage2 {
+  top: 0px;
+  left: 0px;
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("../media/ff1c8f15-ef98-4d43-b3da-eddd29701218-mrw-400h.png");
+}
+.apsion-psychoimage3 {
+  top: 0px;
+  left: 0px;
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("../media/65bb1da5-184f-49a7-836b-86b67b24128d-t11l-400w.png");
+}

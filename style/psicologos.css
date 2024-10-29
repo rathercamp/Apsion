@@ -1,0 +1,246 @@
+.apsion-frame1-layout3 {
+  width: 1440px;
+  height: 1445px;
+  display: flex;
+  padding: 0 195px;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  background-color: var(--dl-color-default-lightbackgroundcolor);
+}
+.apsion-psychoscontainer {
+  gap: 80px;
+  top: 0px;
+  left: 197.5px;
+  width: 1045px;
+  display: flex;
+  padding: 160px 0;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.apsion-row04 {
+  gap: 5px;
+  width: 1044px;
+}
+.apsion-maincontent1 {
+  gap: 10px;
+  width: 691px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.apsion-text060 {
+  color: var(--dl-color-default-primarytextcolor);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.apsion-text062 {
+  color: var(--dl-color-default-textcolor);
+  height: auto;
+  text-align: left;
+  line-height: 50px;
+}
+.apsion-text064 {
+  color: var(--dl-color-default-secondtextcolor);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.apsion-psychosframe {
+  gap: 32px;
+  width: 1045px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.apsion-psychocard {
+  width: 1035px;
+  display: flex;
+  overflow: hidden;
+  box-sizing: content-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(70, 84, 163, 0.10000000149011612);
+  border-style: solid;
+  border-width: 7px;
+  background-color: var(--dl-color-default-lightbackgroundcolor);
+}
+.apsion-fixedheight {
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.apsion-psychoimage1 {
+  top: 0px;
+  left: 0px;
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("../media/776ce990-1fef-4646-b54d-1cf794d75418-cgox-400w.png");
+}
+.apsion-psychoframe {
+  gap: 21px;
+  width: 687px;
+  display: flex;
+  padding: 25px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.apsion-psychodata {
+  gap: 445px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.apsion-psychoname {
+  color: var(--dl-color-default-textcolor);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+  gap: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+.apsion-frame4sec {
+  gap: 5px;
+  display: flex;
+  padding: 5px 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 20px;
+  justify-content: flex-end;
+  background-color: var(--dl-color-default-darkbackgroundcolor);
+}
+.apsion-iconemojionestar {
+  width: 16px;
+  height: 16px;
+}
+.apsion-psychograde {
+  color: var(--dl-color-default-lighttextcolor);
+  height: auto;
+  text-align: left;
+  line-height: 16px;
+}
+.apsion-psychodescription {
+  color: var(--dl-color-default-secondtextcolor);
+  width: 570px;
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apsion-prices {
+  gap: 5px;
+  display: flex;
+  padding: 5px 3px;
+  align-items: flex-start;
+}
+.apsion-text072 {
+  color: var(--dl-color-default-mutedcolor);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apsion-text074 {
+  color: var(--dl-color-default-secondarycolor1);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apsion-button-contact {
+  gap: 10px;
+  display: flex;
+  padding: 10px 20px;
+  overflow: hidden;
+  align-items: center;
+  border-color: rgba(70, 84, 163, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 37px;
+}
+.apsion-button-contact:hover {
+  background-color: var(--dl-color-default-secondtextcolor);
+  border-color: white;
+  cursor: pointer;
+}
+.apsion-contact {
+  color: var(--dl-color-default-primarycolor);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.apsion-icnarrowrighticnxs1 {
+  width: 9px;
+  height: 16px;
+}
+.apsion-psychoimage2 {
+  top: 0px;
+  left: 0px;
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("../media/ff1c8f15-ef98-4d43-b3da-eddd29701218-mrw-400h.png");
+}
+.apsion-psychoimage3 {
+  top: 0px;
+  left: 0px;
+  width: 348px;
+  height: 317px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("../media/65bb1da5-184f-49a7-836b-86b67b24128d-t11l-400w.png");
+}

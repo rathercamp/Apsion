@@ -1,0 +1,73 @@
+html{
+  background-color: aliceblue;
+}
+h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(39, 9, 73, 1);
+  background-color:rgb(140, 140, 180);
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding-top: 50px;
+  border-radius: 9px;
+}
+#logo{
+  width: 92px;
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+  transition-property: height;
+  transition-duration: .90s;
+}
+.main-page_titulo{
+  text-align: center;
+}
+  .form-240 {
+    width: 240px;
+  }
+  .form_img {
+    width: 300px;
+  }
+  .form_field {
+    height: 3em;
+  }
+  .form_label {
+    display: inline-block;
+    font-weight: bold;
+    width: 40%;
+    text-align: right;
+  }
+  .form_input {
+    width: 55%;
+  }
+  .form_textarea {
+    width: 55%;
+  }
+  .form_error {
+    color: red;
+    margin: 0px;
+    text-align: center;
+  }
+  .form_buttons {
+    text-align: center;
+  }
+  .form_button {
+    font-weight: 500;
+    padding: 10px 25px !important;
+    overflow: hidden;
+    align-items: center;
+    height: fit-content;
+    border-radius: 15px;
+    border-width: 0;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(70, 84, 163, 1);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .form_button:hover {
+    cursor: pointer;
+    background-color: rgba(70, 84, 163, 0.7);
+  }

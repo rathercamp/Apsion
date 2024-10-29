@@ -1,0 +1,88 @@
+* {
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 10;
+    padding: 25px 100px;
+    line-height: 60px;
+    top: 0;
+    transition-property: top, height, font-size, background-color;
+    transition-duration: .75s;
+}
+
+#navbarDiv {
+    background-color: transparent;
+}
+
+#navDiv {
+    float: left;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: flex-end;
+    transition-property: margin-top;
+    transition-duration: .75s;
+}
+
+#logo {
+    width: 112px;
+    display: block;
+    transition-property: height;
+    transition-duration: .90s;
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    align-items: center;
+    line-height: inherit;
+    transition-property: height;
+    transition-duration: .90s;
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: color .5s;
+}
+
+#menu {
+    color: var(--dl-color-default-secondtextcolor);
+    display: flex;
+}
+
+.elementoMenu a:hover,
+.elementoMenu a::selection,
+#inicioSesion a:hover,
+#inicioSesion a::selection {
+    color: var(--dl-color-default-textcolor);
+}
+
+#inicioSesion {
+    margin-left: 50px;
+    color: var(--dl-color-default-primarycolorhover);
+}
+
+.elementoMenu {
+    font-weight: 500;
+    padding: 0 10px;
+    text-align: center;
+    display: inline;
+}
+
+#cabecera-usuario {
+    background-color: rgb(70 84 163 / 18%);
+    color: rgb(70 84 163 / 76%);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    top: 0;
+}
+

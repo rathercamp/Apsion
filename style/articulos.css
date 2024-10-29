@@ -1,0 +1,103 @@
+/* Resetear márgenes y padding por defecto */
+body, header, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    line-height: 1.6;
+}
+
+/* Estilos para el header */
+header {
+    background-color: aliceblue;
+    padding: 20px;
+    position: relative;
+    color: rgba(39, 9, 73, 1);
+}
+
+/*logo a index*/
+#logo{
+    width: 92px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    transition-property: height;
+    transition-duration: .90s;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+}
+
+/*estrella valoración*/
+.apsion-iconemojionestar {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+
+.apsion-content {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    background-color: rgba(39, 9, 73, 1);    
+    border-radius: 20px;
+}
+
+.apsion-text-nota{
+    color:  #fff;
+    height: auto;
+    text-align: left;
+    line-height: 16px;
+    margin-left: 10px;
+  }
+
+
+.articulos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.articulo {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+h2 {
+    color: #271949;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Ajustes adicionales para dispositivos móviles */
+@media (max-width: 768px) {
+    .articulos-container {
+        padding: 10px;
+    }
+
+    .articulo {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+

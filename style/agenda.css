@@ -1,0 +1,94 @@
+.h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+.h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 700px;
+    font-stretch: normal;
+}
+#logo{
+    width: 92px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    transition-property: height;
+    transition-duration: .90s;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+button{
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+}
+.contenido{
+    box-sizing: border-box;
+}
+.contenido2{
+    width: calc(20% - 5px);
+    box-sizing: border-box;
+    display: block;
+}
+.marginbot{
+    margin-bottom: 10px;
+}
+.align-right{
+    float: right;
+}
+.pago{
+    width: 16px;
+    height: 16px;
+}
+.border{
+    background-color: aqua;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.mensajes{
+    margin-top: 80px;
+}
+.menu{
+    width: 800px;
+    margin-left: -100px;
+    background-color: rgb(186, 155, 215);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+.logout{
+    text-decoration: none;
+    color: white;
+}
+.button-delete {
+    gap: 10px;
+    display: flex;
+    padding: 10px 20px;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgba(70, 84, 163, 1);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+}
+.division{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
